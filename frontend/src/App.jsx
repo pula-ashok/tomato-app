@@ -7,6 +7,7 @@ import PlaceOrder from "./pages/placeOrder/placeOrder";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
+  console.log("ashok");
   return (
     <>
       <div className="app">
