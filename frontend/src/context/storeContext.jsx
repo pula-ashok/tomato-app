@@ -2,7 +2,6 @@ import { createContext, useEffect, useState } from "react";
 import { food_list } from "../assets/assets";
 
 export const storeContext = createContext(null);
-console.log("checking merge from the vs");
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
