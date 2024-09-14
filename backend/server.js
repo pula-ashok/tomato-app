@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("first API working");
+  res.send("Get API working");
 });
 
 app.listen(port, () => {
