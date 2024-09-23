@@ -20,7 +20,6 @@ const Add = ({ url }) => {
   };
   const onSubmitHandler = async (e) => {
     e.preventDefault();
-    console.log(data, image);
     const formData = new FormData();
     formData.append("name", data.name);
     formData.append("description", data.description);

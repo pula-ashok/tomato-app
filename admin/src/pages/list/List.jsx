@@ -20,7 +20,6 @@ const List = ({ url }) => {
   useEffect(() => {
     fetchList();
   }, []);
-  console.log(list);
   const removeFood = async (foodId) => {
     try {
       const response = await axios.post(`${url}/api/food/remove`, {

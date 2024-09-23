@@ -15,7 +15,6 @@ const LoginPopup = ({ setShowLogin }) => {
   };
   const onSubmitHandler = async (e) => {
     e.preventDefault();
-    console.log(data);
     let newUrl = url;
     if (currentState === "Login") {
       newUrl += "/api/user/login";
