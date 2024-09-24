@@ -27,3 +27,6 @@ do the same for admin
 change the frontend url in backend folder
 
 frontend url :https://tomato-app-frontend-jqhh.onrender.com
+admin url : https://tomato-app-admin-l2ak.onrender.com
+
+for routing issue fix :   click on Redirects /Rewrites =>add rule and add this /*  /index.html  Rewrite for both frontend and admin

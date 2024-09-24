@@ -2,7 +2,8 @@ import Stripe from "stripe";
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 
-const frontend_url = "http://localhost:5173";
+// const frontend_url = "http://localhost:5173";
+const frontend_url = "https://tomato-app-frontend-jqhh.onrender.com";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //placing user order from frontend
 
