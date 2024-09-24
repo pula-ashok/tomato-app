@@ -10,7 +10,7 @@ import Orders from "./pages/orders/Orders";
 
 const App = () => {
   // const url = "http://localhost:4000";
-  const url = "https://tomato-app-r97j.onrender.com";
+  const url = "https://tomato-app-backend-d4mz.onrender.com";
   return (
     <div>
       <ToastContainer />

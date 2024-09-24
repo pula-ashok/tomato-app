@@ -3,11 +3,25 @@ create new project food-del-tomato
 1)
 connecting to backend
 click on web service
+name food-del-backend
 change root directory to backend
 build command : npm install
 start command: node server.js
 select free service
 Add from .env
 Deploy web service
-backend url :  https://tomato-app-r97j.onrender.com
+backend url : https://tomato-app-backend-d4mz.onrender.com
 update the backend url in both admin and frontend
+
+2) 
+connecting to frontend and admin
+click on static site
+name food-del-frontend
+root directory : frontend or admin
+build command : npm install; npm run build
+publish directory ./dist
+deploy static site
+
+do the same for admin
+
+change the frontend url in backend folder
