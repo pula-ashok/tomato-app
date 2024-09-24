@@ -73,9 +73,9 @@ const StoreContextProvider = (props) => {
     loadData();
   }, [token]);
 
-  useEffect(() => {
-    console.log(cartItems);
-  }, [cartItems]);
+  // useEffect(() => {
+  //   console.log(cartItems);
+  // }, [cartItems]);
 
   const contextValue = {
     food_list: food_list,
