@@ -25,3 +25,5 @@ deploy static site
 do the same for admin
 
 change the frontend url in backend folder
+
+frontend url :https://tomato-app-frontend-jqhh.onrender.com
