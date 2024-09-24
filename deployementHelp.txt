@@ -1,0 +1,13 @@
+login to render.com https://dashboard.render.com/
+create new project food-del-tomato
+1)
+connecting to backend
+click on web service
+change root directory to backend
+build command : npm install
+start command: node server.js
+select free service
+Add from .env
+Deploy web service
+backend url :  https://tomato-app-r97j.onrender.com
+update the backend url in both admin and frontend

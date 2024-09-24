@@ -4,12 +4,13 @@ import Sidebar from "./components/sidebar/Sidebar";
 import { Route, Routes } from "react-router-dom";
 import Add from "./pages/add/Add";
 import List from "./pages/list/List";
-import Orders from "./pages/orders/orders";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Orders from "./pages/orders/Orders";
 
 const App = () => {
-  const url = "http://localhost:4000";
+  // const url = "http://localhost:4000";
+  const url = "https://tomato-app-r97j.onrender.com";
   return (
     <div>
       <ToastContainer />
