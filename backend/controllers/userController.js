@@ -27,7 +27,7 @@ const loginUser = async (req, res) => {
     res.status(200).json({ success: true, token });
   } catch (error) {
     console.log(error);
-    return res.status(500).json({ success: false, error: "Error" });
+    return res.status(500).json({ success: false, message: "Error" });
   }
 };
 
@@ -60,7 +60,7 @@ const registerUser = async (req, res) => {
     return res.status(200).json({ success: true, token });
   } catch (error) {
     console.log(error);
-    return res.status(500).json({ success: false, error: "Error" });
+    return res.status(500).json({ success: false, message: "Error" });
   }
 };
 

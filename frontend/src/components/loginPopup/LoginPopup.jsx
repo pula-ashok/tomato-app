@@ -3,11 +3,13 @@ import axios from "axios";
 import "./loginPopup.css";
 import { assets } from "../../assets/assets";
 import { storeContext } from "../../context/storeContext";
+import { useNavigate } from "react-router-dom";
 
 const LoginPopup = ({ setShowLogin }) => {
   const [currentState, setCurrentState] = useState("Sign Up");
   const [data, setData] = useState({ name: "", email: "", password: "" });
   const { url, setToken } = useContext(storeContext);
+  const navigate = useNavigate();
   const onChangeHanlder = (e) => {
     const name = e.target.name;
     const value = e.target.value;
@@ -26,6 +28,7 @@ const LoginPopup = ({ setShowLogin }) => {
       setToken(response.data.token);
       localStorage.setItem("token", response.data.token);
       setShowLogin(false);
+      navigate("/");
     } else {
       alert(response.data.message);
     }
